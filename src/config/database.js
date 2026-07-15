@@ -2,7 +2,7 @@ export default {
     dialect: 'postgres',
     host: 'localhost',
     username: 'postgres',
-    password: '220906',
+    password: 'postgres',
     database: 'usersdb',
     define: {
         timestamp: true,
