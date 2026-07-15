@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Sequelize CLI output
+# (migrations/seeders usually live in src/, but ignore generated artifacts if any)
+database/migrations/*.js
+
+# Coverage (if tests are added later)
+coverage/
+
+# VSCode
+.vscode/
+
+# Project files (common local db/config overrides)
+*.local
+
+# npm lockfiles (optional; comment out if you want to commit them)
+# package-lock.json
+
